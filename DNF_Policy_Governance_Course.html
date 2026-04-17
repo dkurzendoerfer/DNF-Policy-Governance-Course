@@ -1458,6 +1458,8 @@
   @media print {
     body { background: white; }
     .topbar, .controls, .cert-actions, .instructions-box { display: none !important; }
+    /* Hide the "Course complete" eyebrow and "Well done." heading that precede the certificate */
+    .cert-wrap .eyebrow, .cert-wrap .module-title { display: none !important; }
     .stage, .cert-wrap { box-shadow: none; border: none; }
     .module { padding: 0; }
     .certificate { margin: 0; page-break-inside: avoid; }
